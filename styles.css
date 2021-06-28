@@ -88,8 +88,6 @@ footer {
     font-weight: 400;
 }
 
-
-
 @media only screen and (min-width: 375px) and (max-width: 1439px) {
     .nav-buttons, #dropdown-menu, .dropdown-content, #illustration-editor-desktop, #illustration-laptop-desktop, .icon-arrow-light, #icon-close {
         display: none;
@@ -529,17 +527,10 @@ footer {
 
     footer {
         display: flex;
-        padding-left: 150px;
+        justify-content: space-around;
         padding-top: 50px;
         padding-bottom: 50px;
-    }
-
-    .logo-wrapper {
-        padding-right: 180px;
-    }
-
-    .footer-item {
-        padding-right: 190px;
+        padding-right: 200px;
     }
 
     .footer-item h2 {
