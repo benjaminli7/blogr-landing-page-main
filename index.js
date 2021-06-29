@@ -1,3 +1,7 @@
+window.addEventListener("load", function(event) {
+    document.querySelector('body').classList.remove('preload');
+});
+
 const icon_hamburger = document.getElementById("icon-hamburger");
 const icon_close = document.getElementById("icon-close");
 const dropdown_menu = document.getElementById("dropdown-menu");

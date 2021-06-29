@@ -25,6 +25,14 @@ body {
   font-size: 16px;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
 a,
 .wrap span,
 h2 {
@@ -381,6 +389,12 @@ footer {
     margin-left: 30px;
   }
 
+  .signup-btn,
+  .start-for-free-btn,
+  .learn-more-btn {
+    transition: color 0.4s, background-color 0.4s;
+  }
+
   .signup-btn:hover,
   .start-for-free-btn:hover {
     background-color: var(--very-light-red);
@@ -417,10 +431,19 @@ footer {
     margin-right: 5px;
   }
 
+  .wrap span,
+  .footer-item ul li a {
+    transition: border-bottom 0.1s ease;
+  }
+
   .wrap span:hover,
   .footer-item ul li a:hover {
     border-bottom: 2px solid white;
     cursor: pointer;
+  }
+
+  .icon-arrow-light {
+    transition: all 0.4s ease-in-out;
   }
 
   .wrap:hover .icon-arrow-light {
@@ -460,6 +483,7 @@ footer {
     color: black;
     font-weight: 400;
     padding: 34px 0;
+    transition: font-weight 0.2s ease;
   }
 
   .dropdown-content ul li a:hover {
