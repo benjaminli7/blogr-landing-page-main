@@ -103,7 +103,7 @@ footer {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1439px) {
+@media only screen and (min-width: 375px) and (max-width: 480px) {
   .nav-buttons,
   #dropdown-menu,
   .dropdown-content,
@@ -349,6 +349,18 @@ footer {
   .footer-item ul li a {
     font-size: 1.1rem;
   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* iPads, Tablets */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Small screens, laptops */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  /* Desktops, large screens */
 }
 
 @media only screen and (min-width: 1440px) {
